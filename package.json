@@ -4,7 +4,9 @@
   "description": "Projeto de testes de fundamentos JS",
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "e2e": "playwright test",
+    "playwright": "playwright"
   },
   "devDependencies": {
     "mocha": "^11.5.0",
