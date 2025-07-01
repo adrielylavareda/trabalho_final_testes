@@ -1,6 +1,6 @@
 #CI de Nivel 01 - Disparo manual a partir de 1 clique
 
-#nome do nosso `pipeline`
+#nome do nosso 'pipeline'
 name: 'Execução Manual'
 
 #regras de disparo (gatilhos/triggers)
