@@ -41,3 +41,11 @@ jobs:
       #Executar os testes e2e com mocha
       - name: Executando Testes com mocha
         run: yarn test
+
+      #Gerar o relatório do mocha
+      - name: Upload do relatório
+  uses: actions/upload-artifact@v4
+  if: ${{ always() }}
+  with:
+    name: relatorio-mocha
+    path: mochawesome-report

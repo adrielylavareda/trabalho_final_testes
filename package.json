@@ -4,12 +4,13 @@
   "description": "Projeto de testes de fundamentos JS",
   "type": "module",
   "scripts": {
-    "test": "mocha \"tests/**/*.js\"",
+    "test": "mocha \"tests/**/*.js\" --reporter mochawesome",
     "e2e": "playwright test",
     "playwright": "playwright"
   },
   "devDependencies": {
     "mocha": "^11.5.0",
+    "mochawesome": "^7.1.3",
     "playwright": "^1.53.2"
   }
 }
