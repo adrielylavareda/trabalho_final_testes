@@ -40,4 +40,4 @@ jobs:
 
       #Executar os testes e2e
       - name: Executando Testes e2e
-        run: yarn run e2e
+        run: yarn test
