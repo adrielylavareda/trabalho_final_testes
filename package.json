@@ -4,7 +4,7 @@
   "description": "Projeto de testes de fundamentos JS",
   "type": "module",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha \"tests/**/*.js\"",
     "e2e": "playwright test",
     "playwright": "playwright"
   },
